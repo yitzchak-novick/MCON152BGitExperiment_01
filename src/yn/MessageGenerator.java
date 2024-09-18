@@ -5,17 +5,19 @@ public class MessageGenerator {
 		return "Hello Cosmos";
 	}
 	
-	public static String getMessage2() {
+	public static String getMessage1() {
 		String m = "Hows it going";
 		return m;
 	}
-	
-	public static String getMessage3() {
-		String m = "whats up?";
-		return m + ", world";
+
+	public static int foo() {
+		int x = 12;
+		return x - 3;
 	}
 	
-	public static boolean foo(int a, int b) {
-		return a > b;
+	public static String getMessage2() {
+		return "Hey?";
 	}
+
+	
 }
