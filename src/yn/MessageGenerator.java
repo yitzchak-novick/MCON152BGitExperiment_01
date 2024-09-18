@@ -10,6 +10,6 @@ public class MessageGenerator {
 	}
 	
 	public static String getMessage3() {
-		return "Greetings";
+		return "Whats up?";
 	}
 }
