@@ -6,10 +6,16 @@ public class MessageGenerator {
 	}
 	
 	public static String getMessage2() {
-		return "Salutations.";
+		String m = "Hows it going";
+		return m;
 	}
 	
 	public static String getMessage3() {
-		return "Whats up?";
+		String m = "whats up?";
+		return m + ", world";
+	}
+	
+	public static boolean foo(int a, int b) {
+		return a > b;
 	}
 }
